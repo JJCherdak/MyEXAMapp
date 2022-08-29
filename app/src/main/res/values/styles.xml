@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="navBarStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">#272727</item>
+    </style>
+    <style name="MyEXAMtheme" parent="@style/Theme.MyEXAMapp">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- color used by navigation icon and overflow icon -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+    </style>
+</resources>

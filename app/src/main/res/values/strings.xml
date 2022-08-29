@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MyEXAMapp</string>
+    <string name="classes">Classes</string>
+    <string name="_6_classes_today">6 classes today</string>
+    <string name="homework">Homework</string>
+    <string name="exam_starts_in">Your exam will start in</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="search">Search</string>
+    <string name="filters">Filter</string>
+    <string name="me">Me</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
 </resources>
