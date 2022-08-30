@@ -12,4 +12,10 @@
     <string name="me">Me</string>
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
+    <string name="_8_00_8_45">8:00 - 8:45</string>
+    <string name="math">Math</string>
+    <string name="open_in">Open in</string>
+    <string name="_2_days_left">2 days left</string>
+    <string name="literature">Literature</string>
+    <string name="description_of_the_home_task">Description of the home task</string>
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home_navi_bar"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        android:title="@string/home"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/classes_nav_bar"
+        android:icon="@drawable/ic_classes"
+        android:enabled="true"
+        android:title="@string/classes"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/homework_nav_bar"
+        android:icon="@drawable/ic_homework"
+        android:enabled="true"
+        android:title="@string/homework"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/favorite_nav_bar"
+        android:icon="@drawable/ic_favorite"
+        android:enabled="true"
+        android:title="@string/favorite"
+        android:orderInCategory="4"/>
+</menu>

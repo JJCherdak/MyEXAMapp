@@ -10,8 +10,15 @@
         <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/drawable/ic_filter.xml" value="0.2195" />
         <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/drawable/ic_home.xml" value="0.1485" />
         <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/drawable/ic_homework.xml" value="0.1485" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/fragment_classes_layout.xml" value="0.2421875" />
         <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/fragment_main_layout.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/item_class_layout.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/item_classes_fragment_layout.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/layout/item_homework_layout.xml" value="0.2421875" />
         <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/menu/app_bar_menu.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/menu/classes_bar_menu.xml" value="0.2421875" />
+        <entry key="..\:/x-files/programming/MyEXAMapp/app/src/main/res/menu/nav_bar_menu.xml" value="0.2421875" />
       </map>
     </option>
   </component>
