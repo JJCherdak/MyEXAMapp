@@ -45,11 +45,13 @@
             app:layout_constraintBottom_toBottomOf="@id/icon"/>
 
         <Button
+            android:id="@+id/open_in_btn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#4FC3F7"
             android:text="@string/open_in"
             android:insetTop="0dp"
+            android:visibility="gone"
             android:insetBottom="0dp"
             app:layout_constraintEnd_toEndOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
         android:theme="@style/MyThemeOverlay_Toolbar"
-        app:title="Hi, Mike!"
+        app:title="Hello!"
         app:menu="@menu/classes_bar_menu"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
