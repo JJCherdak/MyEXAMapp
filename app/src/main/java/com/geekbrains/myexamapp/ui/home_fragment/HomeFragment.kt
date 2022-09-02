@@ -15,14 +15,14 @@ import com.geekbrains.myexamapp.domain.HomeworkState
 import com.geekbrains.myexamapp.ui.MainActivity
 import com.geekbrains.myexamapp.ui.classes_fragment.ClassesFragment
 
-class HomeFragment: Fragment() {
+class HomeFragment : Fragment() {
+
     private var _bind: FragmentMainLayoutBinding? = null
     private val bind get() = _bind!!
 
     private val viewModel: HomeViewModel by lazy {
         ViewModelProvider(this).get(HomeViewModel::class.java)
     }
-
     private val classesAdapter = HomeClassesRecyclerAdapter()
     private val homeworkAdapter = HomeworkRecyclerAdapter()
 
@@ -42,8 +42,7 @@ class HomeFragment: Fragment() {
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         bind.navBar.setOnItemSelectedListener {
             when (it.itemId) {
-                R.id.classes_nav_bar -> (requireActivity() as MainActivity).openFragment(
-                    ClassesFragment(0))
+                R.id.classes_nav_bar -> (requireActivity() as MainActivity).openFragment(ClassesFragment(0))
             }
             return@setOnItemSelectedListener true
         }
@@ -116,7 +115,6 @@ class HomeFragment: Fragment() {
     interface OnItemViewClickListener {
         fun onItemViewClick(classItem: Int)
     }
-
 
     override fun onDestroy() {
         super.onDestroy()

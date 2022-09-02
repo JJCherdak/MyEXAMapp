@@ -9,10 +9,11 @@ import com.geekbrains.myexamapp.databinding.ItemClassLayoutBinding
 import com.geekbrains.myexamapp.domain.Class
 
 
-class HomeClassesRecyclerAdapter:
+class HomeClassesRecyclerAdapter :
     RecyclerView.Adapter<HomeClassesRecyclerAdapter.ClassesViewHolder>() {
 
     private var dataList: MutableList<Class> = mutableListOf()
+
     private var onItemViewClickListener: HomeFragment.OnItemViewClickListener? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClassesViewHolder {

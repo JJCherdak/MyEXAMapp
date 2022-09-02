@@ -89,5 +89,4 @@ class ClassesFragment(private val pos: Int) : Fragment() {
         super.onDestroy()
         _bind = null
     }
-
 }
